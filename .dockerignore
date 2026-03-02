@@ -1,0 +1,36 @@
+# Git関連
+.git
+.gitignore
+.gitattributes
+
+# ドキュメント
+README.md
+LICENSE
+*.md
+
+# CI/CD
+.github
+cloudbuild.yaml
+
+# Docker関連
+docker-compose.yml
+Dockerfile
+.dockerignore
+
+# IDE/エディタ
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ログ
+*.log
+
+# 環境変数
+.env
+.env.local

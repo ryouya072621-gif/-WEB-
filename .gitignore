@@ -1,0 +1,33 @@
+# OS
+.DS_Store
+Thumbs.db
+*~
+
+# IDE/エディタ
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# ログ
+*.log
+logs/
+
+# 環境変数
+.env
+.env.local
+.env.*.local
+
+# Docker
+docker-compose.override.yml
+
+# GCP
+.gcloud/
+*.json
+!cloudbuild.yaml
+
+# 一時ファイル
+tmp/
+temp/
+*.tmp
